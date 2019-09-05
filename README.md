@@ -8,5 +8,5 @@ Features:
 - data persisted with mongoDB (need to install mongo driver and run it locally)
 
 Deployed to testing in Heroku
-https://murmuring-bastion-63058.herokuapp.com/
+https://frozen-wave-35004.herokuapp.com/
 with data persisted in mongoDB atlas

@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 // CONNECT MONGOOSE with url of mongo at atlas
-mongoose.connect("mongodb+srv://admin-giulio:Test123@cluster0-l4fdx.mongodb.net/myblogDB", {useNewUrlParser: true});
+mongoose.connect("mongodb://localhost:27017/myblogDB", {useNewUrlParser: true});
 
 
 const postSchema = new mongoose.Schema({
